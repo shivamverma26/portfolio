@@ -2,7 +2,7 @@
 				CSS Styles 
 --------------------------------------------------
 
-    Template Name: Elmiz - Personal Portfolio Template
+    Template Name: Shivam - Personal Portfolio Template
     
 --------------------------------------------------
 
@@ -128,7 +128,8 @@ img.banana_img1{
   bottom: -50px;
 }
 .home {
-  background: url("/assets/img/bg/pic.png"); 
+  background: url("../img/bg/temp.jpg"); 
+  margin-bottom: -100px;
 }
 
 ul {
@@ -215,6 +216,8 @@ ul {
   line-height: 45px;
   border: 2px solid #f21e4e;
   text-align: center;
+  margin-right: 80px; /* Adjust this value to shift right */
+
 }
 
 .main-logo .logo:hover {
@@ -551,7 +554,9 @@ ul {
 .home-banner {
   text-align: center;
   margin-top: 15px;
+  margin-right: 80px; /* Adjust this value to shift right */
 }
+
 
 .home-banner h6 {
   color: #eee;
