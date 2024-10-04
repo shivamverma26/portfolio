@@ -322,6 +322,9 @@ ul {
 .section {
   padding: 80px 0px 50px 0px;
 }
+.service{
+  margin-top: -100px;
+}
 
 .section-heading {
   text-align: center;
@@ -584,11 +587,16 @@ ul {
 .home-banner h1.cd-headline .cd-words-wrapper {
   text-align: center;
 }
+.home-banner h3.cd-headline .cd-words-wrapper {
+  text-align: center;
+}
 
 .home-banner h1.cd-headline .cd-words-wrapper:after {
   background-color: transparent;
 }
-
+.home-banner h3.cd-headline .cd-words-wrapper:after {
+  background-color: transparent;
+}
 .home-banner p {
   color: #ffffff;
   margin: auto auto 30px auto;
@@ -1001,7 +1009,7 @@ ul {
 		  Services
 ------------------------------ */
 .service-item {
-  padding: 30px;
+  padding: 10px;
   margin-bottom: 60px;
   border-radius: 20px;
   text-align: center;
